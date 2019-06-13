@@ -1,1 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Limelight|Roboto:400,700,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.landingup{
+    height: 500px;
+    background-color: #170D3E;
+}
+.landing{
+    color: white;
+    width: 45%;
+    padding: 50px;
+}
+.landingtitle{
+    display: flex;
+}
+.landingtitle h1{
+    font-family: 'Limelight';
+    color: #FD5974;
+    font-size: 100px;
+}
+.landingtitle h4{
+    font-family: 'Roboto';
+    display: inherit;
+    align-items: flex-end;
+    padding: 0 15px 30px;
+}
+.mitad1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingsubtitle{
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.landingdetails{
+    font-family: 'Roboto';
+}
+.landingbutton{
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    background-color: #FD5974;
+    margin-top: 40px;
+}
+
+.foddiefriends img{
+    width: 500px;
+    height: 450px;
+}
