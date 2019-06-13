@@ -45,7 +45,8 @@
     padding: 20px 0 0;
     font-size: 25px;
 }
-.landingbutton{
+.landingbutton a{
+    text-decoration: none;
     font-size: 24px;
     border-radius: 10px;
     width: 250px;
@@ -56,6 +57,7 @@
     font-family: 'Roboto';
     background-color: #FD5974;
     margin-top: 40px;
+    color: white
 }
 
 .foddiefriends img{
@@ -66,8 +68,8 @@
     display: flex;
     justify-content: center;
 }
-.oboarding{
-    width: 276px;
+.onboarding{
+    width: 250px;
     height: 300px;
     font-family: 'Roboto';
     margin: 30px 20px 0;
@@ -82,7 +84,7 @@
 }
 .onboardingtitle{
     text-align: center;
-    margin: 10px 0;
+    margin: 25px 0;
 }
 .onboardingdetails{
     text-align: center;

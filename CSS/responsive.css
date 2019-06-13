@@ -1,0 +1,74 @@
+@media (max-width: 1200px){
+
+}
+@media (max-width: 1024px){
+    .landingtitle h1{
+        font-size: 80px;
+    }
+
+    .landingtitle h4{
+        font-size: 1.1em;
+    }  
+    .landingsubtitle{
+        font-size: 1.1em;
+    }
+    .landingdetails{
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 756px){
+    .landingup{
+        height: 170vh;
+    }
+    .mitad1{
+        display: block;
+    }
+    .landing
+    {
+        padding: 0;
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+    }
+    .landingtitle{
+        display: flex;
+        justify-content: center;
+    }
+    .foddiefriends img{
+        width: 60%;
+        height: 60%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .landingbutton{
+        display: flex;
+        justify-content: center;
+    }
+    .mitad2{
+        display: block;
+    }
+    .onboarding{
+        margin: 30px auto;
+    }
+
+}
+@media (max-width: 375px){
+    .landing{
+        width: 80%;
+    }
+    .landingup{
+        height: 140vh;
+    }
+    .landingtitle h1{
+        font-size: 3em;
+    }
+    .landingtitle h4{
+        font-size: .7em;
+        padding: 0 10px 15px;
+    }
+    .foddiefriends img{
+        width: 80%;
+        height: 80%;
+    }
+    
+}
