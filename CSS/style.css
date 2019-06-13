@@ -62,7 +62,29 @@
     width: 500px;
     height: 450px;
 }
-
-.landingdown{
-
+.mitad2{
+    display: flex;
+    justify-content: center;
+}
+.oboarding{
+    width: 276px;
+    height: 300px;
+    font-family: 'Roboto';
+    margin: 30px 20px 0;
+}
+.onboardingimage{
+    display: flex;
+    justify-content: center;
+}
+.onboardingimage img{
+    height: 157px;
+    width: 157px;
+}
+.onboardingtitle{
+    text-align: center;
+    margin: 10px 0;
+}
+.onboardingdetails{
+    text-align: center;
+    margin: 10px 0;
 }
