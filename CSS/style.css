@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Limelight|Roboto:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Limelight|Roboto:100,300,400,700,900&display=swap');
 
 *{
     margin: 0;
@@ -35,16 +35,21 @@
 }
 .landingsubtitle{
     font-family: 'Roboto';
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .landingdetails{
     font-family: 'Roboto';
+    font-weight: 100;
+    padding: 20px 0 0;
+    font-size: 25px;
 }
 .landingbutton{
+    font-size: 24px;
     border-radius: 10px;
-    width: 200px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +61,8 @@
 .foddiefriends img{
     width: 500px;
     height: 450px;
+}
+
+.landingdown{
+
 }
